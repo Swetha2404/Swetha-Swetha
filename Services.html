@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swe's Bridal Studio</title>
+    <style>
+        body{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 1px;;
+        padding:0%;
+        background-color:skyblue;
+        color:rgb(255, 255, 255);
+        }
+        h2 {
+            color: #e75480;
+            border-bottom: 2px solid #e75480;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background:rosybrown;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .service-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #e75480;
+            color:aquamarine;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section id="services"></section>
+    <h2>Services</h2>
+    <ul>
+        <li>Bridal Makeup-₹5000</li>
+        <li>Party Makeup-₹2500</li>
+        <li>Facials-₹1500</li>
+        <li> Bridal Hairstyles-₹1000</li>
+        <li>Mehandi-₹500</li>
+        <li>Eyebrow Threading-₹100</li>
+    </ul>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="image.png" alt="Bridal Makeup">
+                <h3>Bridal Makeup</h3>
+                <p>Perfect for your big day with long-lasting beauty.</p>
+                <strong>₹5000</strong>
+            </div>
+            <div class="service-card">
+                <img src="hd-party-makeup.webp" alt="Party Makeup">
+                <h3>Party Makeup</h3>
+                <p>Look stunning for any celebration or event.</p>
+                <strong>₹2500</strong>
+            </div>
+            <div class="service-card">
+                <img src="girl-receiving-cosmetic-pink-facial-mask-19069914.webp" alt="Facial Treatment">
+                <h3>Facial Treatments</h3>
+                <p>Rejuvenate your skin with our premium facial care.</p>
+                <strong>₹1500</strong>
+            </div>
+            <div class="service-card">
+                <img src="bridal hairstyle.jpeg" alt="Hair Styling">
+                <h3>Hair Styling</h3>
+                <p>Trendy styles that suit your personality.</p>
+                <strong>₹1000</strong>
+            </div>
+        </div>
+    </section>
+<footer>
+        <p>&copy;2025 Swe's Bridal Studio.All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
